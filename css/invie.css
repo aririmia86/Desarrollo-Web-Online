@@ -24,6 +24,14 @@ body {
   font-size: 35px;
 }
 
+.derecha {
+  float: right;
+}
+
+.izquierda {
+  float: left;
+}
+
 .title-b {
   font-size: 50px;
   margin-bottom: 20px;
@@ -53,8 +61,26 @@ body {
   margin-left: 30px;
 }
 
+.guitarra {
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #1F313C;
+}
+
+.guitarra ol {
+  padding: 0;
+}
 
 .contenedor {
   width: 800px;
   margin: auto;
+}
+
+.contenedor-guitarra-a {
+  padding-left: 20px;
+}
+
+.contenedor-guitarra-b {
+  margin-left: 370px;
 }
